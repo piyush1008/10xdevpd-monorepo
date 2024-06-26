@@ -1,0 +1,16 @@
+{
+  "extends": "@repo/typescript-config/base.json",
+  "compilerOptions": {
+    "lib": ["ES2015"],
+    "rootDir": "./src",
+    "module": "NodeNext",
+    "outDir": "./dist",
+  },
+  "exclude": ["node_modules"],
+  "include": ["."],
+  // "exclude": [
+  //       "./plugins/**/*",
+  //       "./typings/**/*",
+  //       "./dist/**/*" // This is what fixed it!
+  //   ]
+}
